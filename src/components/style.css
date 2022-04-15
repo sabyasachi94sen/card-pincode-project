@@ -60,7 +60,7 @@
     bottom: 0;
     right:1vw;
     cursor: pointer;
-    width:50%;
+    width:45%;
     height:6vh;
     background-color: orange;
     border-radius:15px;
@@ -132,4 +132,7 @@
         width:25%;
         margin-top: 10vh;
     }
+    .trash-icon{
+        height:15vh;
+      }
 }
