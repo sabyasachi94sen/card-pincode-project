@@ -48,7 +48,7 @@ const ShowData=({ipData})=>{
      }
      </div>
      <p className="trash-icon" onClick={deleteIcon}>
-     
+      Delete
      </p>
     </div>
     </>
