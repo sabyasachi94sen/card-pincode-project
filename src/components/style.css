@@ -60,10 +60,11 @@
     bottom: 0;
     right:1vw;
     cursor: pointer;
-    width:20%;
+    width:50%;
     height:6vh;
     background-color: orange;
     border-radius:15px;
+    color:white;
  
 }
 
