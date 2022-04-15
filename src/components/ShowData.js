@@ -18,7 +18,7 @@ const ShowData=({ipData})=>{
    useEffect(()=>{
         card=document.querySelector(".show-data-wrapper");
         card.style.display="block";
-        axios.post("http://dummy-card-project.herokuapp.com/checkapi",{name : "data-passed"}).then( (res)=>{
+        axios.post("https://dummy-card-project.herokuapp.com/checkapi",{name : "data-passed"}).then( (res)=>{
         
          fetchData= res.data;
           delData=document.getElementById("fetchdata")
