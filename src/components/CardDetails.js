@@ -22,7 +22,7 @@ const CardDetails =({indexVal})=>{
        arr[fieldIndex]=val;
        storeInputData(arr);
 
-       if(val.length===4)
+       if(val.length===4 || val.length===0)
          {
            
             if(fieldIndex<3)
